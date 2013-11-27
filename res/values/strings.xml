@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">intercept</string>
+    <string name="intercept_show">not allowed number list</string>
+    <string name="allow_show">always allowed number list</string>
+    <string name="ask">really?</string>
+    <string name="ask_content">delete this for sure ?</string>
+    <string name="yes">yes</string>
+    <string name="no">no</string>
+    <string name="help">help</string>
+    <string name="about">about</string>
+    <string name="phone">phone</string>
+    <string name="add">add number to …</string>
+    <string name="intercept">iswitch</string>
+    <string name="intercept_on">cancel check will allow all</string>
+    <string name="intercept_off">check will intercept</string>
+    <string name="mod">intercept stranger</string>
+    <string name="mod_on">cancel check will allow stranger</string>
+    <string name="mod_off">check will intercept stranger</string>
+	<string name="mdr">No disturbing</string>
+	<string name="mdr_on">cancel check exit No disturbing</string>
+	<string name="mdr_off">check will intercept all</string>
+	<string name="sms_show">sorry now in No disturbing mode,try again later please.</string>
+	<string name="send_after_intercept">send sms intercept friends.</string>
+	<string name="send_on">cancel check won\'t send sms.</string>
+	<string name="send_off">check will send sms</string>
+	<string name="sms_title">sms content</string>
+	<string name="sms_hint">if empty will send default sms</string>
+	<string name="sms_info">only send after intercept friends.</string>
+	<string name="help_show">
+	    1.only send sms after intercept phone from friends,and you can add sms content!\n\n
+	    2.if you allow send sms after intercept phone from friends,but you do not input
+	     sms content will send a message like:sorry now in No disturbing mode,try again 
+	     later please.\n\n
+	    3.if you find this app not work somehow please make sure it has right to auto start.
+	     Not allow other app stop this.For more information please visit bbs.ijustyce.com.</string>
+	    
+	<string name="about_txh">power by bbs.ijustyce.com</string>
+    <string name="txh_version">intercept 2.2 </string>
+    <string name="black">Black list</string>
+    <string name="white">White list</string>
+    <string name="point">Point</string>
+    <string name="more">Feed back</string>
+    <string name="history">History</string>
+    <string name="history_list">history list click to delete!</string>
+    <string name="advance">Advance</string>
+    <string name="success_add">add success</string>
+    <string name="error_allow">exist in white list,please delete first!</string>
+    <string name="error_black">exist in black list,please delete first!</string>
+    <string name="error_exist">already exist !</string>
+    <string name="notifi">phone call from your friend !</string>
+    
+    <string name="add_black">Add to\n black list</string>
+    <string name="add_white">Add to\n white list</string>
+    <string name="welcome">More concise, more unique</string>
+    <string name="action_clean">clean</string>
+    
+    <drawable name="bkcolor">#33CCFF</drawable>
+</resources>

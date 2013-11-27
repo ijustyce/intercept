@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="welcome">更简洁、更独特！</string>
+    <string name="app_name">天蝎拦截</string>
+    <string name="intercept_show">拦截列表、点击删除！</string>
+    <string name="allow_show">永不拦截列表，点击删除！</string>
+    <string name="ask">确定？</string>
+    <string name="ask_content">确定删除这条记录？</string>
+    <string name="yes">是</string>
+    <string name="no">否</string>
+    <string name="phone">手机号</string>
+    <string name="help">使用帮助</string>
+    <string name="about">关于软件</string>
+    <string name="add">添加手机号到…</string>
+    <string name="intercept">拦截开关</string>
+    <string name="intercept_on">取消打勾则不拦截</string>
+    <string name="intercept_off">打勾则拦截</string>
+    <string name="mod">非联系人来电</string>
+    <string name="mod_on">取消打勾则不拦截非联系人的来电</string>
+    <string name="mod_off">打勾则拦截非联系人的来电</string>
+	<string name="mdr">免打扰</string>
+	<string name="mdr_on">取消打勾则退出免打扰</string>
+	<string name="mdr_off">打勾拦截一切来电</string>
+	<string name="sms_show">很抱歉，目前是免打扰模式拦截一切来电的。(本短信发自天蝎拦截，请勿回复)</string>
+	<string name="send_after_intercept">拦截联系人后发短信</string>
+	<string name="send_on">取消打勾则不自动发短信</string>
+	<string name="send_off">打勾则自动发短信</string>
+	<string name="sms_title">请输入短信内容</string>
+	<string name="sms_hint">置空则为默认值！</string>
+	<string name="sms_info">拦截了非联系是不发短信的</string>
+	<string name="help_show">
+	    1.至于拦截后发短信给联系人，是指免打扰模式下拦截了联系人的来电则发条短信
+	    给该联系人，至于短信内容，你可自定义！\n\n
+	    2.如果你设置了免打扰模式下拦截了联系人来电发短信，但又没定义短信内容，则会
+	    发送一条默认的短信，内容为：很抱歉，目前是免打扰模式拦截一切来电的。(本短信发自天蝎拦截，请勿回复)\n\n
+	    3.如果发现不能拦截，很有可能是安全类软件，比如360手机卫士，禁止了本软件的自启！重装即可解决问题!更多信息，请访问 bbs.ijustyce.com</string>
+	    
+    <string name="black">黑名单</string>
+    <string name="white">白名单</string>
+    <string name="point">推荐应用</string>
+    <string name="more">意见反馈</string>
+    <string name="history">拦截记录</string>
+     <string name="history_list">拦截记录，点击删除!</string>
+    <string name="advance">高级功能</string>
+    
+    <string name="success_add">添加成功</string>
+    <string name="error_allow">已存在于白名单中，请先删除！</string>
+    <string name="error_black">已存在于黑名单中，请先删除！</string>
+    <string name="error_exist">该记录已经存在！</string>
+    <string name="intercept_friend">拦截了来自你好友的电话！</string>
+    <string name="action_clean">清空</string>
+    <string name="notifi">拦截了好友的来电</string>
+    
+    <string name="add_black">添加到\n 黑名单</string>
+    <string name="add_white">添加到\n 白名单</string>
+    
+</resources>

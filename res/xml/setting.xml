@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>   
+<PreferenceScreen     
+    xmlns:android="http://schemas.android.com/apk/res/android"             
+    android:title="@string/app_name"       
+    > 
+    <CheckBoxPreference
+        android:key="intercept"
+        android:title="@string/intercept"
+        android:summaryOn="@string/intercept_on"
+        android:summaryOff="@string/intercept_off"
+        android:defaultValue="true"
+        android:layout="@layout/preference"/> 
+    <CheckBoxPreference
+        android:key="mod"
+        android:title="@string/mod"
+        android:summaryOn="@string/mod_on"
+        android:summaryOff="@string/mod_off"
+        android:defaultValue="true"
+        android:layout="@layout/preference"/>
+	<CheckBoxPreference
+        android:key="mdr"
+        android:title="@string/mdr"
+        android:summaryOn="@string/mdr_on"
+        android:summaryOff="@string/mdr_off"
+        android:defaultValue="false"
+        android:layout="@layout/preference"/>
+	<CheckBoxPreference
+        android:key="send"
+        android:title="@string/send_after_intercept"
+        android:summaryOn="@string/send_on"
+        android:summaryOff="@string/send_off"
+        android:defaultValue="false"
+        android:layout="@layout/preference"/> 
+	<EditTextPreference
+	    android:key="sms_body"
+	    android:summary="@string/sms_info"
+	    android:title="@string/sms_title"
+	    android:hint="@string/sms_hint"
+	    android:layout="@layout/preference"/> 
+</PreferenceScreen> 
